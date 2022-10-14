@@ -5,86 +5,127 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My personal website</title>
+    <title>Robin Surell</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
     <style>
-        .h1 {
+        @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap');
 
-            font-family: 'Times New Roman', Times, serif;
-            font-size: xx-large;
-            text-align: center;
-            margin-top: 50 px;
-
-
+        body * {
+            font-family: 'Gemunu Libre', sans-serif;
         }
-
-        .p {
-            font-family: 'Times New Roman', Times, serif;
-            font-size: large;
-            text-align: center;
-        }
-
-        .div {
-            width: 400px;
-            padding: 10px;
-            margin: 20px;
-            border: 15px cadetblue;
-            margin-left: 750px;
-
-
-        }
-
-        .h2 {
-            font-family: 'Times New Roman', Times, serif;
-            font-size: xx-large;
-            text-align: center;
-
-        }
-
-        .bottom {
-            text-align: center;
-            font-family: 'Times New Roman', Times, serif;
-            font-size: large;
-              
-        }
-        
     </style>
-</head>
 
 <body>
 
-    <h2 class="h2">Robin Surell</h2>
-    <div class="div">
-        <p class="p">My name is <span style="color:darkgoldenrod">Robin Surell</span> . I am studdying my first year as
-            a webbdeveloper at Glimåkra folkhögskola. This is the begginig of my personal webiste that i will update
-            during the following years as i learn more. But for now lets keep it simpel! </p>
-    </div>
+    <header>
 
-    <h2 class="h2">Personal information</h2>
+        <div class="headerContainer">
 
-    <div class="div">
-        <p class="p">I am 20 years old an live in a small town named Glimåkra. Programing and boradgames are my main
-            interests but i also
-            like reading, cooking, sports and spending time with family and freinds. My resume will be linked here: <a
-                href="documents/CV kopia.docx" title="note! This will download the Document">CV</a></p>
-    </div>
+            <img src="documents/me.jpg" alt="En bild på mig i skogen">
+
+            <article class="headerChild">
+                <h3>About me</h3>
+                <p class="hero">My name is Robin Surell and i'm currently studying my first year as a webb developer at
+                    <a href="https://glimnet.se/pages/studera-hos-oss?id=216" target="_blank">Glimåkra Folkhögskola</a>.
+                    I love computers but i also love pepole, interacting, exchaning experiences both code related and
+                    personal.
+                </p>
+            </article>
+
+        </div>
+
+    </header>
+
+    <main>
+
+
+
+        <div class="headerContainer">
+            <article class="headerChild">
+                <h2>My worklife</h2>
+                <h3 class="upperCase">ica</h3>
+                <h4>2020-04-01 – 2020-06-01</h4>
+                <p>I worked during weekends and the summer as a shop assistant at ica - nära Glimåkra. The assigments
+                    varyed from recipts, dairy and organizing shelfs. The job meant alot of interactions with customers.
+                </p>
+            </article>
+        </div>
+
+        <div class="headerContainer">
+            <article class="headerChild">
+                <h3>Absolute horses</h3>
+                <h4>2022-06-09 - 2022-07-10</h4>
+                <p>The job as a groom at <a href="https://www.absolutehorses.dk/" target="_blank">Absolute Horses</a>
+                    was challenging
+                    and fun. I worked with the danish national/olympic teamrider Andreas Schous young horses. We were
+                    three pepole responisble for the young horses. When my colleges was competing I was alone at the
+                    stable with around 12 horses doing everything from feeding the horses, cleaning the stabel to
+                    handwalks, grooming, rehab and taking horses in and out from the fields and walker.</p>
+            </article>
+        </div>
+
+        <div class="headerContainer">
+            <article class="headerChild">
+                <h3>Domestic service</h3>
+                <h4>2020-04-01 – 2020-06-01</h4>
+                <p>Working as a care assistant meant a lot of responisbility. As a care assistant i helped elderly
+                    pepole
+                    with medication and things they werent able to do themslef. The job gave me alot of experiences
+                    especially talking with the elderly was very eye opening for me.</p>
+            </article>
+        </div>
+
+        <div class="headerContainer">
+            <article class="headerChild">
+                <h2>Eductaion</h2>
+                <h3>Highschool</h3>
+                <h4>2019-08-01 – 2022-06-20</h4>
+                <p>I studied Allmän linje at Glimåkra - Folkhögskola. I am authorized for uneveristy studys.</p>
+            </article>
+        </div>
+
+        <div class="headerContainer">
+            <article class="headerChild">
+                <h3>Webbdeveloper</h3>
+                <h4>On going</h4>
+                <p>I am currently studying webbdepelopment at <a href="https://glimnet.se/pages/studera-hos-oss?id=216"
+                        target="_blank">Glimåkra Folkhögskola</a> I hope to be an attractive junior webbdeveloper at the
+                    end of my stuides. I am currently looking for a internship during the summer of 2023. I am motivated
+                    and eager to learn and evolve as a developer and i belive an internship would be a great enviorment
+                    for that.</p>
+            </article>
+        </div>
 
 
 
 
+        <div class="headerContainer">
+            <article class="headerChild">
+                <h3>My interests</h3>
+                <p>Litterature is my biggest interest outside of computers. Exercsing is also a big part of my life, i
+                    do it in diffrent forms but i have the most fun when im playing fotball or tennis with my friends.
+                </p>
+                <p>I also love food and music, it realy brings pepole together.</p>
+            </article>
+        </div>
 
 
-
-    <hr>
+    </main>
 
     <footer>
-        <address class="bottom">
-            <a href="robin.surell@hotmail.com">Robin.Surell@hotmail.com</a>
-            <br>
-            <a href="+46-73-381-67-82">+46-73-381-67-82</a>
-        </address>
+
+        <div class="footerContainer">
+
+            <p>robin.surell@hotmail.com</p>
+            <p>+46 73-381 67 82</p>
+            <p>Location - Sweden Glimåkra</p>
 
 
-        <p class="bottom"> &copy;2022 Robin Surell ~ @Faads</p>
+        </div>
+
+
     </footer>
 
 </body>
