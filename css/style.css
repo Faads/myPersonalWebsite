@@ -49,13 +49,17 @@ body {
     
     .headerContainer {
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         
     }
     
+    
+
     .headerChild {
         display: flex;
+        flex-wrap: wrap;
         flex-direction: column;
         
     }
@@ -71,8 +75,8 @@ body {
         width: 30rem;
     }
 
-    article {
-        padding: 6rem;
+    .padding {
+        padding: 5rem;
     }
 
     .upperCase {
@@ -102,3 +106,17 @@ body {
         padding: 0;
     }
     
+    @media screen and (max-width: 970px) {
+        article p {
+            width: 20rem;
+        }
+
+        .headerChild p {
+            width: 25rem;
+        }
+
+        .footerContainer {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
