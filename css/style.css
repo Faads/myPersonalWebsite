@@ -91,6 +91,7 @@ body {
     .footerContainer{
         height: 5rem;
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-evenly;
         align-items: center;
     }
@@ -115,8 +116,5 @@ body {
             width: 25rem;
         }
 
-        .footerContainer {
-            display: flex;
-            flex-wrap: wrap;
-        }
+       
     }
