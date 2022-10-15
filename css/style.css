@@ -107,14 +107,34 @@ body {
         padding: 0;
     }
     
-    @media screen and (max-width: 970px) {
-        article p {
-            width: 20rem;
-        }
-
+    @media screen and (max-width: 1570px) {
+      
         .headerChild p {
             width: 25rem;
         }
 
+        .headerContainer {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        
        
     }
+
+    @media screen and (max-width: 970px) {
+
+        .headerChild p {
+            width: 100%;
+        }
+
+    }
+   
+    @media screen and (max-width: 450px) {
+
+        article p {
+            text-align: left;
+        }
+
+    }
+   
