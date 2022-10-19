@@ -33,9 +33,11 @@ body {
     }
 
     a {
-        text-decoration: none;
+        text-decoration: underline;
         color: rgb(244, 102, 50);
     }
+
+  
 
     a:hover {
         opacity: 50%;
@@ -125,7 +127,7 @@ body {
     @media screen and (max-width: 970px) {
 
         .headerChild p {
-            width: 100%;
+            width: 20rem;
         }
 
     }
